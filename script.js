@@ -44,6 +44,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 } else {
                     editButton.disabled = false;
                     deleteButton.disabled = false;
+                    editButton.style.opacity = '1'
+                    deleteButton.style.opacity = '1'
                 }
             });
 
